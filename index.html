@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nitin — MERN Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">N<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag"><span class="tag-dot"></span>Available for freelance</div>
+      <h1 class="hero-name">Hi, I'm <span class="accent">Nitin</span></h1>
+      <h2 class="hero-title">
+        <span class="type-wrap"><span id="typed"></span><span class="cursor">|</span></span>
+      </h2>
+      <p class="hero-desc">I build full-stack web applications using the MERN stack — from sleek React frontends to robust Node.js APIs. I also craft powerful WordPress solutions for businesses.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Let's Talk</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Exp.</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Projects Done</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Client Satisfaction</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="card-header">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <span class="card-file">nitin.js</span>
+        </div>
+        <pre class="card-code"><span class="c-key">const</span> <span class="c-var">nitin</span> = {
+  <span class="c-prop">role</span>: <span class="c-str">"MERN Developer"</span>,
+  <span class="c-prop">skills</span>: [
+    <span class="c-str">"MongoDB"</span>,
+    <span class="c-str">"Express.js"</span>,
+    <span class="c-str">"React.js"</span>,
+    <span class="c-str">"Node.js"</span>,
+    <span class="c-str">"WordPress"</span>,
+  ],
+  <span class="c-prop">passion</span>: <span class="c-str">"Building things"</span>,
+  <span class="c-prop">available</span>: <span class="c-bool">true</span>,
+};</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">WHO I AM</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">A developer who cares about <span class="accent">every detail</span></h2>
+          <p>I'm Nitin, a full-stack web developer specializing in the MERN stack. I build performant, scalable web applications from the ground up — beautiful interfaces with React, powerful backends with Node.js & Express, and solid data layers with MongoDB.</p>
+          <p>Beyond MERN, I'm proficient in WordPress — creating custom themes, plugins, and WooCommerce stores. Whether it's a startup MVP or a business website, I bring clean code and sharp design to every project.</p>
+          <a href="#contact" class="btn-primary" style="margin-top:2rem;display:inline-block;">Hire Me</a>
+        </div>
+        <div class="about-right">
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="card-icon">⚡</div>
+              <h3>Fast & Performant</h3>
+              <p>Optimized builds, lazy loading, and clean code for the best performance scores.</p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">📱</div>
+              <h3>Fully Responsive</h3>
+              <p>Every project works flawlessly across all screen sizes and devices.</p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">🔒</div>
+              <h3>Secure & Reliable</h3>
+              <p>JWT auth, input validation, and best practices baked into every app.</p>
+            </div>
+            <div class="about-card">
+              <div class="card-icon">🎨</div>
+              <h3>Clean Design</h3>
+              <p>UI that users love — intuitive, modern, and visually sharp.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-label">TECH STACK</div>
+      <h2 class="section-title centered">Technologies I work with</h2>
+
+      <div class="stack-group">
+        <div class="stack-title">
+          <span class="stack-icon">🔷</span> MERN Stack
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="MongoDB">
+            <div class="skill-logo mongo">M</div>
+            <div class="skill-info">
+              <h4>MongoDB</h4>
+              <p>NoSQL database — flexible documents, aggregation pipelines, Atlas cloud.</p>
+              <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+            </div>
+          </div>
+          <div class="skill-card" data-skill="Express.js">
+            <div class="skill-logo express">E</div>
+            <div class="skill-info">
+              <h4>Express.js</h4>
+              <p>Minimal Node.js framework — REST APIs, middleware, routing, authentication.</p>
+              <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+            </div>
+          </div>
+          <div class="skill-card" data-skill="React.js">
+            <div class="skill-logo react">R</div>
+            <div class="skill-info">
+              <h4>React.js</h4>
+              <p>Hooks, Context API, Redux, React Router — building dynamic UIs fast.</p>
+              <div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div>
+            </div>
+          </div>
+          <div class="skill-card" data-skill="Node.js">
+            <div class="skill-logo node">N</div>
+            <div class="skill-info">
+              <h4>Node.js</h4>
+              <p>Server-side JS — async/await, streams, file system, real-time with Socket.io.</p>
+              <div class="skill-bar"><div class="skill-fill" style="--w:87%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stack-group">
+        <div class="stack-title">
+          <span class="stack-icon">🌐</span> WordPress
+        </div>
+        <div class="skills-grid skills-grid-3">
+          <div class="skill-card">
+            <div class="skill-logo wp">W</div>
+            <div class="skill-info">
+              <h4>WordPress Core</h4>
+              <p>Custom themes (PHP + CSS), page builders, plugin setup, content management.</p>
+              <div class="skill-bar"><div class="skill-fill" style="--w:91%"></div></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo woo">WC</div>
+            <div class="skill-info">
+              <h4>WooCommerce</h4>
+              <p>Full e-commerce stores — products, checkout, payments, shipping integrations.</p>
+              <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo wp-plugin">P</div>
+            <div class="skill-info">
+              <h4>Custom Plugins</h4>
+              <p>WordPress plugin development, hooks, shortcodes, and REST API extensions.</p>
+              <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stack-group">
+        <div class="stack-title">
+          <span class="stack-icon">🛠️</span> Other Tools
+        </div>
+        <div class="tools-grid">
+          <div class="tool-pill">Git & GitHub</div>
+          <div class="tool-pill">Tailwind CSS</div>
+          <div class="tool-pill">REST APIs</div>
+          <div class="tool-pill">JWT Auth</div>
+          <div class="tool-pill">Mongoose</div>
+          <div class="tool-pill">Redux</div>
+          <div class="tool-pill">Postman</div>
+          <div class="tool-pill">VS Code</div>
+          <div class="tool-pill">Vite</div>
+          <div class="tool-pill">Vercel / Netlify</div>
+          <div class="tool-pill">Cloudinary</div>
+          <div class="tool-pill">Firebase</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">MY WORK</div>
+      <h2 class="section-title centered">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-index="01">
+          <div class="project-tag mern-tag">MERN Stack</div>
+          <h3 class="project-name">ShopNest — E-Commerce Platform</h3>
+          <p class="project-desc">A full-featured e-commerce app with product listings, cart, order management, Stripe payments, and admin dashboard. JWT auth, image uploads via Cloudinary.</p>
+          <div class="project-stack">
+            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Stripe</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-live">Live Demo ↗</a>
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="02">
+          <div class="project-tag mern-tag">MERN Stack</div>
+          <h3 class="project-name">TaskFlow — Project Management App</h3>
+          <p class="project-desc">Trello-inspired drag-and-drop task board with team collaboration, real-time updates via Socket.io, role-based access, and email notifications.</p>
+          <div class="project-stack">
+            <span>React</span><span>Express</span><span>Socket.io</span><span>MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-live">Live Demo ↗</a>
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="03">
+          <div class="project-tag wp-tag">WordPress</div>
+          <h3 class="project-name">LuxeStore — WooCommerce Store</h3>
+          <p class="project-desc">Premium WooCommerce e-commerce site for a jewellery brand. Custom theme built from scratch with PHP, advanced filters, wishlist, and payment gateway integrations.</p>
+          <div class="project-stack">
+            <span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>ACF</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-live">Live Demo ↗</a>
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="04">
+          <div class="project-tag mern-tag">MERN Stack</div>
+          <h3 class="project-name">BlogForge — CMS & Blog Platform</h3>
+          <p class="project-desc">Full-stack blogging platform with rich text editor, category system, comment threads, author profiles, and SEO-optimized pages. Admin analytics dashboard included.</p>
+          <div class="project-stack">
+            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Redux</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-live">Live Demo ↗</a>
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="05">
+          <div class="project-tag wp-tag">WordPress</div>
+          <h3 class="project-name">AgencyPro — Business Website</h3>
+          <p class="project-desc">Multi-page WordPress agency site with Elementor Pro, custom plugin for lead forms, SEO optimization, Google Analytics integration, and page speed optimization.</p>
+          <div class="project-stack">
+            <span>WordPress</span><span>Elementor</span><span>PHP</span><span>SEO</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-live">Live Demo ↗</a>
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="06">
+          <div class="project-tag mern-tag">MERN Stack</div>
+          <h3 class="project-name">ChatSphere — Real-Time Chat App</h3>
+          <p class="project-desc">WhatsApp-inspired messaging app with private & group chats, message reactions, file sharing, online status, and push notifications. Fully responsive PWA.</p>
+          <div class="project-stack">
+            <span>React</span><span>Socket.io</span><span>Node.js</span><span>MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-live">Live Demo ↗</a>
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-label">GET IN TOUCH</div>
+      <h2 class="section-title centered">Let's build something great</h2>
+      <p class="contact-sub">Have a project in mind? I'd love to hear about it. Fill the form below or reach out directly.</p>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="ci-icon">📧</div>
+            <div>
+              <div class="ci-label">Email</div>
+              <div class="ci-value">nitin@nitintech.in</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">💼</div>
+            <div>
+              <div class="ci-label">LinkedIn</div>
+              <div class="ci-value">linkedin.com/in/nitin-dev</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">🐙</div>
+            <div>
+              <div class="ci-label">GitHub</div>
+              <div class="ci-value">github.com/nitin-dev</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon">▶️</div>
+            <div>
+              <div class="ci-label">YouTube</div>
+              <div class="ci-value">YT NitinTech</div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" id="fname" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" id="femail" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" id="fsubject" placeholder="Project Inquiry" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea id="fmessage" rows="5" placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message →</button>
+          <div class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">N<span class="dot">.</span></div>
+      <p class="footer-text">Designed & Built by <strong>Nitin</strong> — MERN Stack Developer</p>
+      <p class="footer-copy">© 2025 All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
